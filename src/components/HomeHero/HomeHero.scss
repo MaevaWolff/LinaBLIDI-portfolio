@@ -1,8 +1,5 @@
 .homeHero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter;
   height: 100vh;
   &__welcome {
     font-size: 30px;
