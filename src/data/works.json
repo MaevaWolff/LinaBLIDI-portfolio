@@ -1,0 +1,16 @@
+[
+  {
+    "name": "canwebreathenow",
+    "year": "2020",
+    "hashtag": "school project",
+    "description": "lorem ipsum blablablabla",
+    "heroImage": "/",
+    "link": "/",
+    "time": "2 full week design and dev",
+    "date": "june 2020",
+    "colors": ["#", "#"],
+    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
+    "images": ["image1.png", "image2.png", "image3.png"],
+    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+  }
+]
