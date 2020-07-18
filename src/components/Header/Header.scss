@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  &__burger {
+    position: fixed;
+    right: 20px;
+    z-index: 2;
+    top: 20px;
+    cursor: pointer;
+    .open {
+      transform: rotate(80deg);
+    }
+    @include medium {
+      right: 80px;
+      top: 40px;
+    }
+  }
+  &__menu {
+    top: -100%;
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    background-color: var(--neutral-white);
+    @include flexCenter;
+    height: 40vh;
+    width: 100%;
+    @include medium {
+      height: auto;
+    }
+  }
+  .open {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+    top: 0;
+  }
+  &__links {
+    @include medium {
+      margin-top: 40px;
+    }
+  }
+  &__item {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    @include medium {
+      font-size: 60px;
+      margin-top: 40px;
+    }
+    em {
+      font-size: 18px;
+    }
+  }
+  &__mail {
+    font-size: 20px;
+    color: var(--primary-color);
+    @include medium {
+      margin-top: 40px;
+      font-size: 26px;
+    }
+  }
+  &__copyright {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 20px;
+    @include medium {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+  }
+}
