@@ -4,6 +4,7 @@ import './scss/styles.scss';
 
 // import pages
 import HomePage from './pages/HomePage/Home.page';
+import WorksPage from './pages/WorksPage/Works.page';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className='App'>
         <Switch>
           <Route exact path='/' component={HomePage} />
+          <Route exact path='/works' component={WorksPage} />
         </Switch>
       </div>
     </Router>
