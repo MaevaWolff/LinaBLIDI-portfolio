@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
-import HomeHero from '../../components/HomeHero/HomeHero.components';
+import GridsBackground from '../../components/GridsBackground/GridsBackground.component';
+import HomeHero from '../../components/HomeHero/HomeHero.component';
 
 export default class HomePage extends Component {
   render() {
     return (
       <div className='home'>
+        <GridsBackground />
         <HomeHero />
       </div>
     );
