@@ -5,11 +5,11 @@ export default class HomeWorks extends Component {
   render() {
     return (
       <div className='homeWorks'>
-        {works.map(work => {
+        {works.map((work, index) => {
           return (
-            <div className='homeWorks__item'>
+            <div key={index} className='homeWorks__item'>
               <h3 className='homeWorks__name'>{work.name}</h3>
-              <h4 className='homeWorks__year'>{work.year}</h4>
+              <h4 className='homeWorks__year'>({work.year})</h4>
             </div>
           );
         })}

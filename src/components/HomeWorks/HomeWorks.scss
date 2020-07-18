@@ -1,5 +1,30 @@
 .homeWorks {
+  @include flexCenter;
+  width: 100%;
   &__item {
+    margin-top: 20px;
     border-bottom: 1px solid var(--neutral-black);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    @include medium {
+      width: 80%;
+      align-items: center;
+
+      margin-top: 60px;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+  }
+  &__name {
+    font-size: 26px;
+    text-transform: uppercase;
+    @include medium {
+      font-size: 55px;
+    }
+  }
+  &__year {
+    font-size: 18px;
   }
 }
