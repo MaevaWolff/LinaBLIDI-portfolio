@@ -3,10 +3,13 @@ import linkedinSVG from '../../assets/icons/linkedin.svg';
 import dribbbleSVG from '../../assets/icons/dribbble.svg';
 import githubSVG from '../../assets/icons/github.svg';
 
+import Spotify from '../../components/Spotify/Spotify.component';
+
 export default class HomeHero extends Component {
   render() {
     return (
       <div className='homeHero'>
+        <Spotify />
         <h2 className='homeHero__welcome'>Welcome You!</h2>
         <h1 className='homeHero__title'>
           My name is Lina, a <em>designer</em> from Paris.
