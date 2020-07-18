@@ -3,7 +3,7 @@
   &__burger {
     position: fixed;
     right: 20px;
-    z-index: 2;
+    z-index: 3;
     top: 20px;
     cursor: pointer;
     .open {
@@ -16,15 +16,13 @@
   }
   &__menu {
     top: -100%;
-    transition: 0.4s ease-in-out;
+    transition: 0.6s ease-in-out;
     position: absolute;
     background-color: var(--neutral-white);
     @include flexCenter;
-    height: 40vh;
+    height: 100vh;
+    z-index: 2;
     width: 100%;
-    @include medium {
-      height: auto;
-    }
   }
   .open {
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
