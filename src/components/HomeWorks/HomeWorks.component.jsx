@@ -11,7 +11,7 @@ export default class HomeWorks extends Component {
             <Link
               className='homeWorks__container'
               key={index}
-              to={`/works?id=${work.name}`}
+              to={`/works?name=${work.name}`}
             >
               <div className='homeWorks__item'>
                 <h3 className='homeWorks__name'>{work.name}</h3>
