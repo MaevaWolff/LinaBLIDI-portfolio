@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import works from '../../data/works.json';
 
 import GridsBackground from '../../components/GridsBackground/GridsBackground.component';
+
 import WorksHero from '../../components/WorksHero/WorksHero.component';
 
 export default class WorksPage extends Component {
