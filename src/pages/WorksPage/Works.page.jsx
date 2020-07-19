@@ -15,7 +15,7 @@ export default class WorksPage extends Component {
   }
   render() {
     const name = this.state.name;
-    const worksData = name[name];
+    // const worksData = name[name];
     console.log(name);
     console.log(works.filter(el => el.name === name)[0].colors);
 
