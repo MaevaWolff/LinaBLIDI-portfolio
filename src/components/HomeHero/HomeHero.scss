@@ -1,4 +1,5 @@
 .homeHero {
+  position: relative;
   @include flexCenter;
   height: 100vh;
   &__welcome {
