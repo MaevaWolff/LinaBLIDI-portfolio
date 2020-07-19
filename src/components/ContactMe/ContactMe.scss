@@ -29,18 +29,46 @@
     }
     &__content{
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
-      margin-top: 20px;
+      margin-top: 40px;
+      @include medium{
+        align-items: center;
+      }
     }
     &__text{
       font-size: 14px;
-      max-width: 50%;
       @include medium{
         font-size: 20px;
       }
       @include large{
         font-size: 26px;
+      }
+    }
+    &__mail{
+      font-size: 14px;
+      color: var(--primary-color);
+      margin-top: 40px;
+      font-weight: bold;
+      @include medium {
+        font-size: 20px;
+      }
+      @include medium {
+        font-size: 26px;
+      }
+    }
+    &__socials {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px;
+      @include medium {
+        width: 150px;
+      }
+      &Links {
+        transition: 0.4s;
+        &:hover {
+          transform: scale(1.4);
+        }
       }
     }
     &__image{
