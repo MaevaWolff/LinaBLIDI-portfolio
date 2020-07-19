@@ -8,6 +8,7 @@
 
 // import all scss
 @import '../components/Header/Header';
+@import '../components/IndicatorScroll/IndicatorScroll';
 @import '../components/GridsBackground/GridsBackground';
 @import '../components/HomeHero/HomeHero';
 @import '../components/HomeWorks/HomeWorks';
@@ -15,4 +16,6 @@
 @import '../pages/HomePage/Home';
 @import '../components/WorksHero/WorksHero';
 @import '../components/ContactMe/ContactMe';
+@import '../components/WorksDetails/WorksDetails';
+
 @import '../pages/WorksPage/Works';
