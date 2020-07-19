@@ -1,0 +1,73 @@
+.worksDetails {
+  text-transform: uppercase;
+  @include medium {
+    margin: 0 10%;
+  }
+  &Title {
+    border-bottom: 1px solid var(--neutral-black);
+    padding-bottom: 4px;
+    font-family: Assistant;
+    @include medium {
+      font-size: 18px;
+    }
+  }
+  &__title {
+    width: fit-content;
+    @include medium {
+      font-size: 40px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--neutral-black);
+    }
+  }
+  &__time {
+    font-family: Assistant;
+    @include medium {
+      font-size: 20px;
+      margin-top: 40px;
+    }
+  }
+  &__date {
+    font-family: Assistant;
+    width: 100%;
+    border-bottom: 1px solid var(--neutral-black);
+
+    @include medium {
+      padding-bottom: 40px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+  &__color {
+    width: 40px;
+    height: 40px;
+    @include medium {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  &__categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    @include medium {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      margin: 4% 4%;
+      grid-gap: 40px;
+    }
+  }
+  &__name {
+    margin-top: 4%;
+    font-family: Assistant;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  &__colors {
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__partners {
+    margin-top: 4%;
+  }
+}
