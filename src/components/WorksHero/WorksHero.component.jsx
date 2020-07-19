@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import IndicatorScroll from '../IndicatorScroll/IndicatorScroll.component';
+
 export default class WorksHero extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
@@ -7,6 +9,7 @@ export default class WorksHero extends Component {
   render() {
     return (
       <div className='worksHero'>
+        <IndicatorScroll />
         <div className='worksHero__infos'>
           <h1 className='worksHero__name'>{this.props.worksName}</h1>
           <p className='worksHero__hashtag'>#{this.props.worksHashtag}</p>
