@@ -2,16 +2,16 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
-  height: 200vh;
+  height: 240vh;
   z-index: -1;
   position: absolute;
   &__item {
     width: 1px;
     height: 100%;
     background-color: #e4e4e4;
-    &--desktop{
+    &--desktop {
       display: none;
-      @include medium{
+      @include medium {
         display: block;
       }
     }

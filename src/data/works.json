@@ -12,16 +12,15 @@
     "color2": "#151515",
     "color3": "#FFFFFF",
     "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["image1.png", "image2.png", "image3.png"],
+    "images": ["cwbn1.png", "cwbn1.png", "cwbn1.png"],
     "imagesMobile": ["image4.png", "image5.png", "image6.png"]
   },
   {
     "name": "socoda",
     "year": "2020",
     "hashtag": "school project",
-    "description": "lorem ipsum blablablabla",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum id donec ut blandit odio tortor, orci. Nec in lacus viverra pellentesque. Ac integer viverra vitae vulputate augue.",
     "heroImage": "hero_cwbn.png",
-
     "link": "/",
     "time": "2 full week design and dev",
     "date": "june 2020",
