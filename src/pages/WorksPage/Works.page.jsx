@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import works from '../../data/works.json';
 
+import MetaTag from '../../components/MetaTag/MetaTag.component';
+
 import GridsBackground from '../../components/GridsBackground/GridsBackground.component';
 
 import WorksHero from '../../components/WorksHero/WorksHero.component';
@@ -21,6 +23,8 @@ export default class WorksPage extends Component {
 
     return (
       <div className='works'>
+        <MetaTag metatagPage='works' />
+
         <GridsBackground />
         <WorksHero
           worksName={works.filter(el => el.name === name)[0].name}
