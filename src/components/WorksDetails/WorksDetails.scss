@@ -73,4 +73,18 @@
   &__partners {
     margin-top: 4%;
   }
+  &__images {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 80px;
+    img {
+      max-width: 90%;
+      margin-bottom: 40px;
+      @include medium {
+        margin-bottom: 60px;
+      }
+    }
+  }
 }

@@ -37,7 +37,22 @@ export default class WorksPage extends Component {
           worksColor1={works.filter(el => el.name === name)[0].color1}
           worksColor2={works.filter(el => el.name === name)[0].color2}
           worksColor3={works.filter(el => el.name === name)[0].color3}
-          worksPartners={works.filter(el => el.name === name)[0].partners}
+          worksPartners={works
+            .filter(el => el.name === name)[0]
+            .partners.map((partner, i) => {
+              return <li key={i}>{partner}</li>;
+            })}
+          worksImages={works
+            .filter(el => el.name === name)[0]
+            .images.map((image, index) => {
+              return (
+                <img
+                  key={index}
+                  alt='project_details'
+                  src={require(`../../assets/${image}`)}
+                />
+              );
+            })}
         />
       </div>
     );

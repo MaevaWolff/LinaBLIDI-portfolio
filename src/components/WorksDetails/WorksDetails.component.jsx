@@ -38,8 +38,13 @@ export default class WorksDetails extends Component {
           </article>
           <article className='worksDetails__category'>
             <WorksDetailsTitle worksDetailsTitle='Partners' />
-            <p className='worksDetails__partners'>{this.props.worksPartners}</p>
+            <ul className='worksDetails__partners'>
+              {this.props.worksPartners}
+            </ul>
           </article>
+        </section>
+        <section className='worksDetails__images'>
+          {this.props.worksImages}
         </section>
       </div>
     );
@@ -53,7 +58,7 @@ WorksDetails.propTypes = {
   worksColor1: PropTypes.string,
   worksColor2: PropTypes.string,
   worksColor3: PropTypes.string,
-  worksPartners: PropTypes.string
+  worksPartners: PropTypes.array
 };
 
 WorksDetails.defaultProps = {
