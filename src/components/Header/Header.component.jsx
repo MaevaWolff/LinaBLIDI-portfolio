@@ -15,21 +15,28 @@ export default class Header extends Component {
   render() {
     return (
       <header className='header'>
-        <div className='header__burger' onClick={this.handleMenuClick}>
+        <div
+          className={
+            this.state.menuOpen ? 'header__burger open' : 'header__burger'
+          }
+          onClick={this.handleMenuClick}
+        >
           <svg
             width='36'
-            height='10'
+            height='60'
             viewBox='0 0 36 10'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
           >
             <rect
+              className='burger1'
               width='36'
               height='4'
               transform='matrix(1 0 0 -1 0 4)'
               fill='#151515'
             />
             <rect
+              className='burger2'
               width='36'
               height='2'
               transform='matrix(1 0 0 -1 0 10)'
