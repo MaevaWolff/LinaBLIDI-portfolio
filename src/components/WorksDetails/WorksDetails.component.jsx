@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import WorksDetailsTitle from './WorksDetailsTitle.component';
 
@@ -44,3 +45,17 @@ export default class WorksDetails extends Component {
     );
   }
 }
+
+WorksDetails.propTypes = {
+  worksTime: PropTypes.string,
+  worksDate: PropTypes.string,
+  worksName: PropTypes.string.isRequired,
+  worksColor1: PropTypes.string,
+  worksColor2: PropTypes.string,
+  worksColor3: PropTypes.string,
+  worksPartners: PropTypes.string
+};
+
+WorksDetails.defaultProps = {
+  worksName: 'project name'
+};

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import IndicatorScroll from '../IndicatorScroll/IndicatorScroll.component';
 
@@ -30,3 +31,12 @@ export default class WorksHero extends Component {
     );
   }
 }
+
+WorksHero.propTypes = {
+  worksName: PropTypes.string.isRequired,
+  worksHashtag: PropTypes.string
+};
+
+WorksHero.defaultProp = {
+  worksName: 'PROJECT NAME'
+};

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class WorksDetailsTitle extends Component {
   render() {
@@ -7,3 +8,11 @@ export default class WorksDetailsTitle extends Component {
     );
   }
 }
+
+WorksDetailsTitle.propTypes = {
+  worksDetailsTitle: PropTypes.string.isRequired
+};
+
+WorksDetailsTitle.defaultProps = {
+  worksDetailsTitle: 'CATEGORY NAME'
+};

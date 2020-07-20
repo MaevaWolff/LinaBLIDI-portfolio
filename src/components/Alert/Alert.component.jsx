@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class Alert extends Component {
   render() {
@@ -9,3 +10,12 @@ export default class Alert extends Component {
     );
   }
 }
+
+Alert.propTypes = {
+  AlertType: PropTypes.string,
+  AlertText: PropTypes.string.isRequired
+};
+
+Alert.defaultProps = {
+  AlertText: 'message of alert'
+};
