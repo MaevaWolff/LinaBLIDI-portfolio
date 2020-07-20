@@ -1,5 +1,6 @@
 .worksDetails {
   text-transform: uppercase;
+  margin: 0 4%;
   @include medium {
     margin: 0 10%;
   }
@@ -13,14 +14,16 @@
   }
   &__title {
     width: fit-content;
+    border-bottom: 1px solid var(--neutral-black);
+    padding-bottom: 4px;
+    font-size: 23px;
     @include medium {
       font-size: 40px;
-      padding-bottom: 4px;
-      border-bottom: 1px solid var(--neutral-black);
     }
   }
   &__time {
     font-family: Assistant;
+    margin-top: 20px;
     @include medium {
       font-size: 20px;
       margin-top: 40px;
@@ -30,11 +33,11 @@
     font-family: Assistant;
     width: 100%;
     border-bottom: 1px solid var(--neutral-black);
-
+    margin-top: 10px;
+    padding-bottom: 20px;
     @include medium {
       padding-bottom: 40px;
       font-size: 20px;
-      margin-top: 10px;
     }
   }
   &__color {
@@ -49,11 +52,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    margin: 8% 4%;
+    grid-gap: 40px;
     @include medium {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      margin: 4% 4%;
-      grid-gap: 40px;
     }
   }
   &__name {
