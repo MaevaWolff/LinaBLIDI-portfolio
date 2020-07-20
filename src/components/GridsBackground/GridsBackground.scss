@@ -5,6 +5,7 @@
   height: 240vh;
   z-index: -1;
   position: absolute;
+  animation: gridAnim 8s;
   &__item {
     width: 1px;
     height: 100%;
@@ -15,5 +16,14 @@
         display: block;
       }
     }
+  }
+}
+
+@keyframes gridAnim {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
   }
 }
