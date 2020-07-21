@@ -8,6 +8,7 @@ import GridsBackground from '../../components/GridsBackground/GridsBackground.co
 import WorksHero from '../../components/WorksHero/WorksHero.component';
 import WorksDetails from '../../components/WorksDetails/WorksDetails.component';
 import WorksImages from '../../components/WorksImages/WorksImages.component';
+import WorksOther from '../../components/WorksOther/WorksOther.component';
 
 export default class WorksPage extends Component {
   constructor(props) {
@@ -70,6 +71,7 @@ export default class WorksPage extends Component {
               );
             })}
         />
+        <WorksOther />
       </div>
     );
   }
