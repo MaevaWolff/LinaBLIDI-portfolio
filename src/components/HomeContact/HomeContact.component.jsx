@@ -4,7 +4,7 @@ import linkedinSVG from '../../assets/icons/linkedin.svg';
 import dribbbleSVG from '../../assets/icons/dribbble.svg';
 import githubSVG from '../../assets/icons/github.svg';
 
-export default class ContactMe extends Component {
+export default class HomeContact extends Component {
   render() {
     return (
       <div className='contactme'>

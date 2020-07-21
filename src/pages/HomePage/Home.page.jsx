@@ -4,7 +4,7 @@ import MetaTag from '../../components/MetaTag/MetaTag.component';
 import GridsBackground from '../../components/GridsBackground/GridsBackground.component';
 import HomeHero from '../../components/HomeHero/HomeHero.component';
 import HomeWorks from '../../components/HomeWorks/HomeWorks.component';
-import ContactMe from '../../components/ContactMe/ContactMe.component';
+import HomeContact from '../../components/HomeContact/HomeContact.component';
 
 export default class HomePage extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class HomePage extends Component {
         <GridsBackground />
         <HomeHero />
         <HomeWorks />
-        <ContactMe />
+        <HomeContact />
       </div>
     );
   }
