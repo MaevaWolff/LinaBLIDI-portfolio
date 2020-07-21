@@ -7,26 +7,26 @@ import githubSVG from '../../assets/icons/github.svg';
 export default class HomeContact extends Component {
   render() {
     return (
-      <div className='contactme'>
-        <h2 className="contactme__mainTitle">contact me</h2>
-        <h3 className="contactme__subTitle">Anywhere, Anytime</h3>
-        <div className="contactme__content">
-          <div className="contactme__infos">
-          <p className="contactme__text">Feel free to contact me, i’m enjoying every project i can be on, plus its always a pleasure to work with differents profiles.</p>
-          <p className="contactme__mail">Send Me A Mail!</p>
-          <div className='contactme__socials'>
-          <a className='contactme__socialsLinks' href='/'>
+      <div className='homeContact'>
+        <h2 className="homeContact__mainTitle">contact me</h2>
+        <h3 className="homeContact__subTitle">Anywhere, Anytime</h3>
+        <div className="homeContact__content">
+          <div className="homeContact__infos">
+          <p className="homeContact__text">Feel free to contact me, i’m enjoying every project i can be on, plus its always a pleasure to work with differents profiles.</p>
+          <p className="homeContact__mail">Send Me A Mail!</p>
+          <div className='homeContact__socials'>
+          <a className='homeContact__socialsLinks' href='/'>
             <img src={linkedinSVG} alt='socials_icon_linkedin' />
           </a>
-          <a className='contactme__socialsLinks' href='/'>
+          <a className='homeContact__socialsLinks' href='/'>
             <img src={dribbbleSVG} alt='socials_icon_dribbble' />
           </a>
-          <a className='contactme__socialsLinks' href='/'>
+          <a className='homeContact__socialsLinks' href='/'>
             <img src={githubSVG} alt='socials_icon_github' />
           </a>
         </div>
           </div>
-          <img src={workingImage} alt="workingImage" className="contactme__image"/>
+          <img src={workingImage} alt="workingImage" className="homeContact__image"/>
         </div>
       </div>
     );
