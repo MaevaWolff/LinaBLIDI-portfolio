@@ -13,4 +13,12 @@
       }
     }
   }
+  &__mobile {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    img {
+      max-width: 30%;
+    }
+  }
 }

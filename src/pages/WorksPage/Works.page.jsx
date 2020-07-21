@@ -51,8 +51,21 @@ export default class WorksPage extends Component {
               return (
                 <img
                   key={index}
+                  className='worksImages__item'
                   alt='project_details'
                   src={require(`../../assets/${image}`)}
+                />
+              );
+            })}
+          worksImagesMobile={works
+            .filter(el => el.name === name)[0]
+            .imagesMobile.map((imageMobile, index) => {
+              return (
+                <img
+                  key={index}
+                  className='worksImages__itemMobile'
+                  alt='project_details_mobile'
+                  src={require(`../../assets/${imageMobile}`)}
                 />
               );
             })}
