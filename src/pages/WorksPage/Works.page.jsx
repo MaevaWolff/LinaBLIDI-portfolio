@@ -7,6 +7,7 @@ import GridsBackground from '../../components/GridsBackground/GridsBackground.co
 
 import WorksHero from '../../components/WorksHero/WorksHero.component';
 import WorksDetails from '../../components/WorksDetails/WorksDetails.component';
+import WorksImages from '../../components/WorksImages/WorksImages.component';
 
 export default class WorksPage extends Component {
   constructor(props) {
@@ -42,14 +43,29 @@ export default class WorksPage extends Component {
             .partners.map((partner, i) => {
               return <li key={i}>{partner}</li>;
             })}
+        />
+        <WorksImages
           worksImages={works
             .filter(el => el.name === name)[0]
             .images.map((image, index) => {
               return (
                 <img
                   key={index}
+                  className='worksImages__item'
                   alt='project_details'
                   src={require(`../../assets/${image}`)}
+                />
+              );
+            })}
+          worksImagesMobile={works
+            .filter(el => el.name === name)[0]
+            .imagesMobile.map((imageMobile, index) => {
+              return (
+                <img
+                  key={index}
+                  className='worksImages__itemMobile'
+                  alt='project_details_mobile'
+                  src={require(`../../assets/${imageMobile}`)}
                 />
               );
             })}

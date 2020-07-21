@@ -13,7 +13,11 @@
     "color3": "#FFFFFF",
     "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
     "images": ["cwbn1.png", "cwbn1.png", "cwbn1.png"],
-    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+    "imagesMobile": [
+      "cnwbn1_mobile.png",
+      "cnwbn1_mobile.png",
+      "cnwbn1_mobile.png"
+    ]
   },
   {
     "name": "socoda",

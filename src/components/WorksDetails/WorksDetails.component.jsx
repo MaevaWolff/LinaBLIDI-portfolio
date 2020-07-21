@@ -43,9 +43,6 @@ export default class WorksDetails extends Component {
             </ul>
           </article>
         </section>
-        <section className='worksDetails__images'>
-          {this.props.worksImages}
-        </section>
       </div>
     );
   }
