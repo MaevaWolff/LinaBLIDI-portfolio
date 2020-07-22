@@ -23,7 +23,6 @@ export default class WorksPage extends Component {
     return (
       <div className='works'>
         <MetaTag metatagPage='works' />
-
         <GridsBackground />
         <WorksHero
           worksName={works.filter(el => el.name === name)[0].name}
