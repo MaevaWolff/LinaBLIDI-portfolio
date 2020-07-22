@@ -7,9 +7,14 @@ body {
   color: var(--neutral-black);
   font-family: 'Butler';
   font-weight: 200;
+  transition: all 0.3s;
 }
 
 a {
   text-decoration: none;
   color: var(--neutral-black);
+}
+
+body.socoda {
+  background-color: darkkhaki;
 }
