@@ -21,13 +21,22 @@ export default function HomeHero() {
       </p>
 
       <div className='homeHero__socials'>
-        <a className='homeHero__socialsLinks' href='/'>
+        <a
+          className='homeHero__socialsLinks'
+          href='https://www.linkedin.com/in/lina-blidi-000aa0174/'
+        >
           <img src={linkedinSVG} alt='socials_icon_linkedin' />
         </a>
-        <a className='homeHero__socialsLinks' href='/'>
+        <a
+          className='homeHero__socialsLinks'
+          href='https://dribbble.com/LinaBlidi'
+        >
           <img src={dribbbleSVG} alt='socials_icon_dribbble' />
         </a>
-        <a className='homeHero__socialsLinks' href='/'>
+        <a
+          className='homeHero__socialsLinks'
+          href='https://github.com/LinaBlidi'
+        >
           <img src={githubSVG} alt='socials_icon_github' />
         </a>
       </div>
