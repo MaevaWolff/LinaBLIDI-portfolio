@@ -7,6 +7,42 @@ body {
   color: var(--neutral-black);
   font-family: 'Butler';
   font-weight: 200;
+  transition: all 0.3s;
+  &.socoda {
+    background-color: red;
+    .homeWorks__image--socoda {
+      opacity: 1;
+      width: 30%;
+    }
+  }
+  &.canwebreathenow {
+    background-color: rosybrown;
+    .homeWorks__image--canwebreathenow {
+      opacity: 1;
+      width: 30%;
+    }
+  }
+  &.coquette {
+    background-color: antiquewhite;
+    .homeWorks__image--coquette {
+      opacity: 1;
+      width: 30%;
+    }
+  }
+  &.mypocket {
+    background-color: mediumaquamarine;
+    .homeWorks__image--mypocket {
+      opacity: 1;
+      width: 30%;
+    }
+  }
+  &.gallery {
+    background-color: palegoldenrod;
+    .homeWorks__image--gallery {
+      opacity: 1;
+      width: 30%;
+    }
+  }
 }
 
 a {

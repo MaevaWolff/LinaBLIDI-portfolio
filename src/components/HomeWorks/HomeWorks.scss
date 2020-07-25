@@ -1,6 +1,7 @@
 .homeWorks {
   &__container {
     width: 100%;
+    position: relative;
     @include flexCenter;
   }
   &__item {
@@ -27,5 +28,13 @@
   }
   &__year {
     font-size: 18px;
+  }
+  &__image {
+    transition: all 0.3s;
+    position: absolute;
+    top: -60px;
+    right: 0;
+    width: 0;
+    opacity: 0;
   }
 }
