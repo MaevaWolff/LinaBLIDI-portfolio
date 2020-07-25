@@ -4,6 +4,7 @@ import MetaTag from '../../components/MetaTag/MetaTag.component';
 import GridsBackground from '../../components/GridsBackground/GridsBackground.component';
 import HomeHero from '../../components/HomeHero/HomeHero.component';
 import HomeWorks from '../../components/HomeWorks/HomeWorks.component';
+import HomeAbout from '../../components/HomeAbout/HomeAbout.component';
 import HomeContact from '../../components/HomeContact/HomeContact.component';
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
       <GridsBackground />
       <HomeHero />
       <HomeWorks />
+      <HomeAbout />
       <HomeContact />
     </div>
   );
