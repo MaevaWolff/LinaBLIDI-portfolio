@@ -4,7 +4,7 @@ Official _repository_ of Lina's portfolio !
 Front-end website using _ReactJS_
 
 <p align="center">
-  <img src="https://ibb.co/0f8VPzb">
+  <img src="https://i.ibb.co/cNMXzsn/image.png">
 </p>
 
 [Visit the website 💅🏽](https://linablidi.netlify.app/)
