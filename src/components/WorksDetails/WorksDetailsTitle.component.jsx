@@ -1,12 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-export default class WorksDetailsTitle extends Component {
-  render() {
-    return (
-      <div className='worksDetailsTitle'>{this.props.worksDetailsTitle}</div>
-    );
-  }
+export default function WorksDetailsTitle(props) {
+  return <div className='worksDetailsTitle'>{props.worksDetailsTitle}</div>;
 }
 
 WorksDetailsTitle.propTypes = {
