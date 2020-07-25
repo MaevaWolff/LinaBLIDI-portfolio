@@ -14,9 +14,9 @@ export default class HomeWorks extends Component {
     };
   }
   handleMouseOver = event => {
-    console.log(JSON.parse(event.target.dataset.info));
+    console.log(event.target.dataset.info);
     const body = document.body;
-    const data = JSON.parse(event.target.dataset.info);
+    const data = event.target.dataset.info;
     if (data === this.state.socoda) {
       body.classList.add('socoda');
     } else if (data === this.state.coquette) {
@@ -48,7 +48,7 @@ export default class HomeWorks extends Component {
               to={`/works?name=${work.name}`}
             >
               <div
-                data-info={JSON.stringify(work.name)}
+                data-info={work.name}
                 onMouseOver={this.handleMouseOver}
                 onMouseLeave={this.handleMouseLeave}
                 className='homeWorks__item'
