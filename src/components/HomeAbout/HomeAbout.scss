@@ -1,0 +1,113 @@
+.homeAbout {
+  width: 100%;
+  margin-top: 70px;
+  @include medium {
+    margin-top: 125px;
+  }
+  @include large {
+    margin-top: 180px;
+  }
+  &__mainTitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    @include medium {
+      font-size: 45px;
+    }
+    @include large {
+      font-size: 55px;
+    }
+  }
+  &__subTitle {
+    margin-left: 70px;
+    font-size: 25px;
+    @include medium {
+      font-size: 40px;
+    }
+    @include large {
+      font-size: 60px;
+    }
+  }
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-size: 14px;
+    @include medium {
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 20px;
+    }
+    @include large {
+      font-size: 26px;
+    }
+  }
+  &__me {
+    em {
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    span {
+      color: var(--primary-color);
+    }
+    @include medium {
+      width: 50%;
+
+      line-height: 30px;
+    }
+  }
+  &__skills {
+    margin-top: 20px;
+    @include medium {
+      margin-top: 0;
+    }
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    @include medium {
+      grid-gap: 10px 40px;
+      margin: 5% 0;
+    }
+  }
+  &__what {
+    font-weight: 800;
+    color: var(--primary-color);
+  }
+  &__available {
+    display: flex;
+    margin-top: 4%;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    @include medium {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+  &__cv {
+    background-color: var(--primary-color);
+    font-family: Assistant;
+    font-weight: 600;
+    color: var(--neutral-white);
+    padding: 5px 5px;
+    width: fit-content;
+
+    @include medium {
+      padding: 10px 20px;
+    }
+  }
+  &__freelance {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    width: fit-content;
+    margin-top: 15px;
+    @include medium {
+      font-size: 28px;
+      margin: 0;
+    }
+  }
+}
