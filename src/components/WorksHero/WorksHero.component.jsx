@@ -6,6 +6,8 @@ import IndicatorScroll from '../IndicatorScroll/IndicatorScroll.component';
 export default function WorksHero(props) {
   useEffect(() => {
     window.scrollTo(0, 0);
+    const body = document.body;
+    body.classList = '';
   });
 
   return (

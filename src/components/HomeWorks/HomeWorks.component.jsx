@@ -45,7 +45,9 @@ export default function HomeWorks() {
             onMouseLeave={handleMouseLeave}
           >
             <div className='homeWorks__item'>
-              <h3 className='homeWorks__name'>{work.name}</h3>
+              <h3 className={`homeWorks__name homeWorks__name--${work.name}`}>
+                {work.name}
+              </h3>
               <h4 className='homeWorks__year'>({work.year})</h4>
               <img
                 src={require(`../../assets/${work.heroImage}`)}
