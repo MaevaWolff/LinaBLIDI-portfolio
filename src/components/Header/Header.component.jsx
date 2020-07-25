@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -7,8 +8,16 @@ export default function Header() {
     setMenuOpen(!menuOpen);
   };
 
+  const backToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <header className='header'>
+      <Link to='/' className='header__logo' onClick={backToTop}>
+        lina blidi
+      </Link>
+
       <div
         className={menuOpen ? 'header__burger open' : 'header__burger'}
         onClick={handleMenuClick}
@@ -36,6 +45,7 @@ export default function Header() {
           />
         </svg>
       </div>
+
       <div className={menuOpen ? 'header__menu open' : 'header__menu '}>
         <p className='header__mail'>Send Me A Mail !</p>
         <ul className='header__links'>
@@ -45,7 +55,7 @@ export default function Header() {
             </a>
           </li>
           <li className='header__item'>
-            <a href='/'>
+            <a href='#works'>
               MY WORKS /<em> (02)</em>
             </a>
           </li>
