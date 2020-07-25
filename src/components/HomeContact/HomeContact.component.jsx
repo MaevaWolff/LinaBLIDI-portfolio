@@ -17,13 +17,22 @@ export default function HomeContact() {
           </p>
           <p className='homeContact__mail'>Send Me A Mail!</p>
           <div className='homeContact__socials'>
-            <a className='homeContact__socialsLinks' href='/'>
+            <a
+              className='homeContact__socialsLinks'
+              href='https://www.linkedin.com/in/lina-blidi-000aa0174/'
+            >
               <img src={linkedinSVG} alt='socials_icon_linkedin' />
             </a>
-            <a className='homeContact__socialsLinks' href='/'>
+            <a
+              className='homeContact__socialsLinks'
+              href='https://dribbble.com/LinaBlidi'
+            >
               <img src={dribbbleSVG} alt='socials_icon_dribbble' />
             </a>
-            <a className='homeContact__socialsLinks' href='/'>
+            <a
+              className='homeContact__socialsLinks'
+              href='https://github.com/LinaBlidi'
+            >
               <img src={githubSVG} alt='socials_icon_github' />
             </a>
           </div>
