@@ -101,6 +101,11 @@ ${reset}
     }
   }
   
+  ::selection {
+background-color: ${colors.primaryColor};
+color: ${colors.neutralWhite};
+  }
+
   a {
     text-decoration: none;
     color:  ${colors.neutralBlack};
