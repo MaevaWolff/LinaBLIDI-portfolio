@@ -29,7 +29,7 @@ export const breakpoints = {
 
 export const fontSize = {
   s: '14px',
-  m: '20px,',
+  m: '20px',
   l: '26px'
 };
 
