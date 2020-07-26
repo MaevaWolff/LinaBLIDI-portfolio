@@ -43,6 +43,7 @@ WorksHero.defaultProp = {
 
 const Container = styled.div`
   display: flex;
+  position: relative;
   flex-direction: row;
   justify-content: center;
   align-items: center;
