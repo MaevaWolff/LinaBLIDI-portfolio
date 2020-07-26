@@ -1,28 +1,4 @@
 .worksOther {
-  @include flexCenter;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  @include medium {
-    margin-top: 60px;
-  }
-  @include large {
-    margin-top: 100px;
-  }
-  &__text {
-    border-top: 1px solid var(--neutral-black);
-    width: 90%;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 23px;
-    @include medium {
-      padding-top: 40px;
-      font-size: 52px;
-    }
-    @include large {
-      padding-top: 60px;
-      font-size: 70px;
-    }
-  }
   &__back {
     margin-top: 20px;
     transition: 0.3s;
