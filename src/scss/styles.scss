@@ -8,13 +8,12 @@
 
 // import all scss
 @import '../components/Alert/Alert';
-@import '../components/Spotify/Spotify';
+// @import '../components/Spotify/Spotify';
 
 @import '../components/Header/Header';
 
 @import '../components/IndicatorScroll/IndicatorScroll';
 @import '../components/GridsBackground/GridsBackground';
-@import '../components/HomeHero/HomeHero';
 @import '../components/HomeWorks/HomeWorks';
 @import '../components/HomeAbout/HomeAbout';
 @import '../components/HomeContact/HomeContact';
@@ -25,5 +24,3 @@
 @import '../components/WorksImages/WorksImages';
 @import '../components/WorksOther/WorksOther';
 @import '../pages/WorksPage/Works';
-
-@import '../components/Footer/Footer';
