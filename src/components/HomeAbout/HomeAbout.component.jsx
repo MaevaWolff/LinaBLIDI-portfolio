@@ -85,11 +85,11 @@ const SubTitle = styled.h3`
 `;
 
 const Infos = styled.section`
+  font-size: ${fontSize.s};
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 40px;
-  font-size: ${fontSize.s};
   @media (min-width: ${breakpoints.medium}) {
     font-size: ${fontSize.m};
   }
