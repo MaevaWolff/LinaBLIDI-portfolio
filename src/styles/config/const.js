@@ -26,3 +26,22 @@ export const breakpoints = {
   large: '1100px',
   xlarge: '1366px'
 };
+
+export const fontSize = {
+  s: '14px',
+  m: '20px,',
+  l: '26px'
+};
+
+export const titleFontSize = {
+  s: '30px',
+  m: '45px',
+  l: '55px'
+};
+
+// export const flexCenter = {
+//  ` display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;`
+// }
