@@ -5,6 +5,42 @@ import { colors, breakpoints, fontSize } from '../../styles/config/const';
 
 import IndicatorScroll from '../IndicatorScroll/IndicatorScroll.component';
 
+export default function WorksHero(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    const body = document.body;
+    body.classList = '';
+  });
+
+  return (
+    <Container>
+      <IndicatorScroll />
+      <Infos>
+        <Name>{props.worksName}</Name>
+        <Hashtag>#{props.worksHashtag}</Hashtag>
+        <Description>{props.worksDescription}</Description>
+
+        <Link href={props.worksLink}>
+          <p>see the website right here</p>
+        </Link>
+      </Infos>
+      {/* <Image
+          src={require(`../../assets/${this.props.worksHero}`)}
+          alt='image_hero_project'
+        /> */}
+    </Container>
+  );
+}
+
+WorksHero.propTypes = {
+  worksName: PropTypes.string.isRequired,
+  worksHashtag: PropTypes.string
+};
+
+WorksHero.defaultProp = {
+  worksName: 'PROJECT NAME'
+};
+
 const Container = styled.div`
   display: flex;
   flex-direction: row;
@@ -83,39 +119,3 @@ p {
 //     right: -40px;
 //   }
 // `;
-
-export default function WorksHero(props) {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    const body = document.body;
-    body.classList = '';
-  });
-
-  return (
-    <Container>
-      <IndicatorScroll />
-      <Infos>
-        <Name>{props.worksName}</Name>
-        <Hashtag>#{props.worksHashtag}</Hashtag>
-        <Description>{props.worksDescription}</Description>
-
-        <Link href={props.worksLink}>
-          <p>see the website right here</p>
-        </Link>
-      </Infos>
-      {/* <Image
-          src={require(`../../assets/${this.props.worksHero}`)}
-          alt='image_hero_project'
-        /> */}
-    </Container>
-  );
-}
-
-WorksHero.propTypes = {
-  worksName: PropTypes.string.isRequired,
-  worksHashtag: PropTypes.string
-};
-
-WorksHero.defaultProp = {
-  worksName: 'PROJECT NAME'
-};
