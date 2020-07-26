@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { GlobalStyle } from './styles/gobalStyle';
+
 import * as serviceWorker from './serviceWorker';
 import { ThemeProvider } from 'styled-components';
 
@@ -12,6 +14,7 @@ const theme = {
 
 ReactDOM.render(
   <ThemeProvider theme={theme}>
+    <GlobalStyle />
     <App />
   </ThemeProvider>,
   document.getElementById('root')
