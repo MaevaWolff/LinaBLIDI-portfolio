@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import {
+  colors,
+  breakpoints,
+  fontSize,
+  titleFontSize
+} from '../../styles/config/const';
 import works from '../../data/works.json';
 
 export default function HomeWorks() {
@@ -33,31 +39,85 @@ export default function HomeWorks() {
   };
 
   return (
-    <div className='homeWorks'>
+    <Container>
       {works.map((work, index) => {
         return (
-          <Link
-            className='homeWorks__container'
+          <Items
             key={index}
-            to={`/works?name=${work.name}`}
+            href={`/works?name=${work.name}`}
             data-info={work.name}
             onMouseOver={handleMouseOver}
             onMouseLeave={handleMouseLeave}
           >
-            <div className='homeWorks__item'>
-              <h3 className={`homeWorks__name homeWorks__name--${work.name}`}>
+            <Item>
+              <Name className={` homeWorks__name--${work.name}`}>
                 {work.name}
-              </h3>
-              <h4 className='homeWorks__year'>({work.year})</h4>
-              <img
+              </Name>
+              <Year className='homeWorks__year'>({work.year})</Year>
+              <WorksImage
                 src={require(`../../assets/${work.heroImage}`)}
                 alt='home_hover'
-                className={`homeWorks__image homeWorks__image--${work.name}`}
-              />
-            </div>
-          </Link>
+                className={`homeWorks__image--${work.name}`}
+              ></WorksImage>
+            </Item>
+          </Items>
         );
       })}
-    </div>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
+const Items = styled.a`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+`;
+
+const Item = styled.div`
+  margin-top: 20px;
+  border-bottom: 1px solid ${colors.neutralBlack};
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  @media (min-width: ${breakpoints.medium}) {
+    width: 80%;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+`;
+
+const Name = styled.h3`
+font-size: ${fontSize.l};
+text-transform: uppercase;
+transition: all 0.5s;
+@media (min-width: ${breakpoints.medium}) {
+  font-size: ${titleFontSize.l};
+
+`;
+
+const Year = styled.h4`
+  font-size: 18px;
+`;
+
+const WorksImage = styled.img`
+  transition: all 0.3s;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  width: 0;
+  opacity: 0;
+`;
