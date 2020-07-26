@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import works from '../../data/works.json';
+import styled from 'styled-components';
 
 import MetaTag from '../../components/MetaTag/MetaTag.component';
 
@@ -10,11 +11,14 @@ import WorksDetails from '../../components/WorksDetails/WorksDetails.component';
 import WorksImages from '../../components/WorksImages/WorksImages.component';
 import WorksOther from '../../components/WorksOther/WorksOther.component';
 
+const Container = styled.div`
+  position: relative;
+`;
 export default function WorksPage(props) {
   const [name] = useState(props.location.search.substr(6));
 
   return (
-    <div className='works'>
+    <Container>
       <MetaTag metatagPage='works' />
       <GridsBackground />
       <WorksHero
@@ -64,6 +68,6 @@ export default function WorksPage(props) {
           })}
       />
       <WorksOther />
-    </div>
+    </Container>
   );
 }
