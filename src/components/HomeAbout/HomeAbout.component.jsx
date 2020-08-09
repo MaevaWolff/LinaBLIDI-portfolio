@@ -159,8 +159,16 @@ const Cv = styled.a`
   color: ${colors.neutralWhite};
   padding: 5px 5px;
   width: fit-content;
+  transition: all 0.4s;
   @media (min-width: ${breakpoints.medium}) {
     padding: 10px 20px;
+  }
+  &:hover {
+    box-shadow: rgba(190, 177, 255, 0.6) 0px 10px 30px;
+    transform: translateY(-10px);
+  }
+  &:active {
+    transform: translateY(4px);
   }
 `;
 
@@ -169,8 +177,12 @@ const Freelance = styled.a`
   border-bottom: 1px solid ${colors.primaryColor};
   width: fit-content;
   margin-top: 15px;
+  transition: color 0.4s;
   @media (min-width: ${breakpoints.medium}) {
     margin: 0;
     font-size: ${fontSize.l};
+  }
+  &:hover {
+    color: ${colors.neutralBlack};
   }
 `;
