@@ -38,10 +38,3 @@ export const titleFontSize = {
   m: '45px',
   l: '55px'
 };
-
-// export const flexCenter = {
-//  ` display: flex;
-//   flex-direction: column;
-//   justify-content: center;
-//   align-items: center;`
-// }

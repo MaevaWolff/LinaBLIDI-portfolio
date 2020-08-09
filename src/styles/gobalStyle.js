@@ -69,7 +69,8 @@ ${reset}
         width: 30%;
       }
       .homeWorks__name {
-        color: darken(${colors.projects.mypocket}, 60%);
+        /* color: darken(${colors.projects.mypocket}, 60%); */
+
         &--mypocket {
           color: white;
         }
@@ -80,10 +81,11 @@ ${reset}
     }
   
     &.gallery {
-      color: ${colors.neutralWhite};
+      color: white;
       background-color: ${colors.projects.gallery};
       .homeWorks__item {
         border-bottom: 1px solid grey;
+        color: white;
       }
       .homeWorks__image--gallery {
         opacity: 1;
@@ -98,6 +100,7 @@ ${reset}
       .gridsBackground {
         opacity: 0.1;
       }
+
     }
   }
   
@@ -111,6 +114,5 @@ color: ${colors.neutralWhite};
     color:  ${colors.neutralBlack};
   }
   
-
 
 `;

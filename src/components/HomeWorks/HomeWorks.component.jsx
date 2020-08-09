@@ -50,7 +50,7 @@ export default function HomeWorks() {
             onMouseLeave={handleMouseLeave}
           >
             <Item>
-              <Name className={` homeWorks__name--${work.name}`}>
+              <Name className={`homeWorks__name homeWorks__name--${work.name}`}>
                 {work.name}
               </Name>
               <Year className='homeWorks__year'>({work.year})</Year>
@@ -101,12 +101,12 @@ const Item = styled.div`
 `;
 
 const Name = styled.h3`
-font-size: ${fontSize.l};
-text-transform: uppercase;
-transition: all 0.5s;
-@media (min-width: ${breakpoints.medium}) {
-  font-size: ${titleFontSize.l};
-
+  font-size: ${fontSize.l};
+  text-transform: uppercase;
+  transition: all 0.5s;
+  @media (min-width: ${breakpoints.medium}) {
+    font-size: ${titleFontSize.l};
+  }
 `;
 
 const Year = styled.h4`
