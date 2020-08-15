@@ -34,11 +34,9 @@
     "heroImage": "hero_socoda.png",
     "time": "2 week design",
     "date": "april 2020",
-    "colors": [
-      "#00AC44",
-      "#ffff",
-      "#ECEFF4"
-    ],
+    "color1": "#00AC44",
+    "color2": "#ECEFF4",
+    "color3": "#FFFFFF",
     "partners": [
       "Team Work"
     ],
@@ -46,7 +44,8 @@
       "socoda1.png",
       "socoda2.png",
       "socoda3.png"
-    ]
+    ],
+    "imagesMobile": []
   },
   {
     "name": "coquette",
@@ -57,11 +56,9 @@
     "link": "/",
     "time": "1 half day design",
     "date": "june 2020",
-    "colors": [
-      "#FF8888",
-      "#fff",
-      "#1d1d1d"
-    ],
+    "color1": "#FF8888",
+    "color2": "#1d1d1d",
+    "color3": "#FFFFFF",
     "partners": [
       "My own self"
     ],
@@ -69,7 +66,8 @@
       "coquette1.png",
       "coquette2.png",
       "coquette3.png"
-    ]
+    ],
+    "imagesMobile": []
   },
   {
     "name": "mypocket",
@@ -80,11 +78,9 @@
     "link": "/",
     "time": "1 day design",
     "date": "january 2020",
-    "colors": [
-      "#384082",
-      "#fff",
-      "#0000"
-    ],
+    "color1": "#384082",
+    "color2": "#1d1d1d",
+    "color3": "#FFFFFF",
     "partners": [
       "My own self"
     ],
@@ -92,7 +88,8 @@
       "mypocket1.png",
       "mypocket2.png",
       "mypocket3.png"
-    ]
+    ],
+    "imagesMobile": []
   },
   {
     "name": "gallery",
@@ -107,14 +104,8 @@
       "#",
       "#"
     ],
-    "partners": [
-      "Maëva WOLFF",
-      "Nathan STAMPFLI"
-    ],
-    "images": [
-      "image1.png",
-      "image2.png",
-      "image3.png"
-    ]
+    "partners": [],
+    "images": [],
+    "imagesMobile": []
   }
 ]
