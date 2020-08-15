@@ -17,7 +17,7 @@ const Container = styled.div`
     display: block;
     position: absolute;
     left: 80px;
-    bottom: 40px;
+    bottom: 10px;
     &:hover {
       animation: ${rotate} 6s infinite linear;
     }
