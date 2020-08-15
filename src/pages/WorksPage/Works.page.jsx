@@ -32,6 +32,7 @@ export default function WorksPage(props) {
         worksTime={works.filter(el => el.name === name)[0].time}
         worksDate={works.filter(el => el.name === name)[0].date}
         worksName={works.filter(el => el.name === name)[0].name}
+        worksTypo={works.filter(el => el.name === name)[0].typography}
         worksColor1={works.filter(el => el.name === name)[0].color1}
         worksColor2={works.filter(el => el.name === name)[0].color2}
         worksColor3={works.filter(el => el.name === name)[0].color3}

@@ -32,6 +32,7 @@ export default function WorksDetails(props) {
         </Category>
         <Category>
           <WorksDetailsTitle worksDetailsTitle='Typography' />
+          <Typography>{props.worksTypo}</Typography>
         </Category>
         <Category>
           <WorksDetailsTitle worksDetailsTitle='Partners' />
@@ -130,6 +131,16 @@ const Color = styled.div`
     height: 80px;
   }
 `;
+
+const Typography = styled.p`
+ font-family: Assistant;
+  margin-top: 4%;
+
+  @media (min-width: ${breakpoints.medium}) {
+    font-size: ${fontSize.m};
+  }
+`
+
 
 const Partners = styled.ul`
   margin-top: 4%;
