@@ -20,7 +20,7 @@ const Container = styled.div`
 
 const Text = styled.p`
   border-top: 1px solid ${colors.neutralBlack};
-  width: 90%;
+  width: 80%;
   padding-top: 20px;
   text-align: center;
   font-size: 23px;
@@ -43,7 +43,6 @@ const Back = styled.a`
   @media (min-width: ${breakpoints.medium}){
     font-size: 26px;
   }
-}
 `;
 
 export default function WorksOther() {

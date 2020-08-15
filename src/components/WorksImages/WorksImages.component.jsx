@@ -17,7 +17,9 @@ WorksImages.propTypes = {
   worksImagesMobile: PropTypes.array
 };
 
-const Container = styled.div``;
+const Container = styled.div`
+margin: 0 5.5%;
+ `;
 
 const Wrapper = styled.section`
   display: flex;

@@ -24,10 +24,6 @@ export default function WorksHero(props) {
           <p>see the website right here</p>
         </Link>
       </Infos>
-      {/* <Image
-          src={require(`../../assets/${this.props.worksHero}`)}
-          alt='image_hero_project'
-        /> */}
     </Container>
   );
 }
@@ -52,12 +48,6 @@ const Container = styled.div`
 
 const Infos = styled.div`
   margin: 0 10%;
-  @media (min-width: ${breakpoints.medium}) {
-    margin: 0 120px;
-  }
-  @media (min-width: ${breakpoints.large}) e {
-    margin: 0 200px;
-  }
 `;
 
 const Name = styled.h1`
@@ -105,7 +95,7 @@ p {
   @media (min-width: ${breakpoints.large}){
     margin-top: 40px;
   }
-}}
+}
 `;
 
 // const Image = styled.img`

@@ -59,9 +59,10 @@ WorksDetails.defaultProps = {
 
 const Container = styled.div`
   text-transform: uppercase;
-  margin: 0 4%;
-  @include medium {
-    margin: 0 10%;
+  margin: 0 18%;
+
+    @media (min-width: ${breakpoints.medium}) {
+   margin: 0 10%;
   }
 `;
 
