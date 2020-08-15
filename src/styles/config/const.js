@@ -15,8 +15,8 @@ export const colors = {
   projects: {
     canwebreathenow: '#73669a',
     socoda: '#77c199',
-    coquette: ' #9fc1f6',
-    mypocket: ' #ffb7b7',
+    mypocket: ' #9fc1f6',
+    coquette: ' #ffb7b7',
     gallery: ' #151515'
   }
 };
