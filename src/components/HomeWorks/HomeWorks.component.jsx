@@ -68,7 +68,8 @@ export default function HomeWorks() {
 }
 
 const Container = styled.div`
-  height: 100vh;
+  height: 140vh;
+
   display: flex;
   justify-content: center;
   align-items: center;

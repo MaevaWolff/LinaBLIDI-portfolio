@@ -46,7 +46,7 @@ export default function HomeContact() {
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 140vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -105,7 +105,7 @@ font-size: ${fontSize.s};
 @media (min-width: ${breakpoints.large}) {
   font-size: ${fontSize.l};
 }
-}`;
+`;
 
 const Socials = styled.div`
   display: flex;
@@ -118,6 +118,7 @@ const Links = styled.a`
 transition: 0.4s;
 &:hover {
   transform: scale(1.4);
+}
 `;
 
 const Illu = styled.img`

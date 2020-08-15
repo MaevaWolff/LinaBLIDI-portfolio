@@ -56,7 +56,7 @@ export default function HomeAbout() {
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 140vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
