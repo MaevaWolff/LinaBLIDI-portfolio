@@ -11,8 +11,15 @@
     "color1": "#FF7E7E",
     "color2": "#151515",
     "color3": "#FFFFFF",
-    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["cwbn1.png", "cwbn1.png", "cwbn1.png"],
+    "partners": [
+      "Maëva WOLFF",
+      "Nathan STAMPFLI"
+    ],
+    "images": [
+      "cwbn1.png",
+      "cwbn1.png",
+      "cwbn1.png"
+    ],
     "imagesMobile": [
       "cnwbn1_mobile.png",
       "cnwbn1_mobile.png",
@@ -23,43 +30,69 @@
     "name": "socoda",
     "year": "2020",
     "hashtag": "school project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum id donec ut blandit odio tortor, orci. Nec in lacus viverra pellentesque. Ac integer viverra vitae vulputate augue.",
+    "description": "SOCODA IS A SCHOOL PROJECT MADE AROUND THE SUBJECT OF UX THE MAIN GOAL WAS TO CREATE A WEBSITE THAT LINKS RESTORATORS AND DISTRIBUTORS. THE MAIN PROCESS IS THE ORDER AND THE SHIPPING. THERE IS TWO DASHBOARDS FOR TWO DIFFERENTS UTILISATORS ( RESTORATOR AND DISTRIBUTOR ).",
     "heroImage": "hero_socoda.png",
-    "link": "/",
-    "time": "2 full week design and dev",
-    "date": "june 2020",
-    "colors": ["#", "#"],
-    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["image1.png", "image2.png", "image3.png"],
-    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+    "time": "2 week design",
+    "date": "april 2020",
+    "colors": [
+      "#00AC44",
+      "#ffff",
+      "#ECEFF4"
+    ],
+    "partners": [
+      "Team Work"
+    ],
+    "images": [
+      "socoda1.png",
+      "socoda2.png",
+      "socoda3.png"
+    ]
   },
   {
     "name": "coquette",
     "year": "2020",
-    "hashtag": "school project",
-    "description": "lorem ipsum blablablabla",
+    "hashtag": "personnal project",
+    "description": "COQUETTE IS A BOOKING APPLICATION MADE FOR SELF CARE. I ORIGINALLY DESIGNED IT TO TEST NEW PROTOTYPE FUNCTION ON FIGMA AND IT TURNED ouT REALLY GOOD SO HERE IT Is !",
     "heroImage": "hero_coquette.png",
     "link": "/",
-    "time": "2 full week design and dev",
+    "time": "1 half day design",
     "date": "june 2020",
-    "colors": ["#", "#"],
-    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["image1.png", "image2.png", "image3.png"],
-    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+    "colors": [
+      "#FF8888",
+      "#fff",
+      "#1d1d1d"
+    ],
+    "partners": [
+      "My own self"
+    ],
+    "images": [
+      "coquette1.png",
+      "coquette2.png",
+      "coquette3.png"
+    ]
   },
   {
     "name": "mypocket",
-    "year": "2019",
-    "hashtag": "school project",
-    "description": "lorem ipsum blablablabla",
+    "year": "2020",
+    "hashtag": "personnal project",
+    "description": "MYPOCKET IS A SOLO DESIGN PROJECT; A BANK APPLICATION THAT HELPS PEOPLE SAVING MONEY.  THE UTILISATOR CAN PUT MONEY ON HIS ACCOUNT EVERY WEEK/MONTH TO achieve his economy goal.",
     "heroImage": "hero_mypocket.png",
     "link": "/",
-    "time": "2 full week design and dev",
-    "date": "june 2020",
-    "colors": ["#", "#"],
-    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["image1.png", "image2.png", "image3.png"],
-    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+    "time": "1 day design",
+    "date": "january 2020",
+    "colors": [
+      "#384082",
+      "#fff",
+      "#0000"
+    ],
+    "partners": [
+      "My own self"
+    ],
+    "images": [
+      "mypocket1.png",
+      "mypocket2.png",
+      "mypocket3.png"
+    ]
   },
   {
     "name": "gallery",
@@ -70,9 +103,18 @@
     "link": "/",
     "time": "2 full week design and dev",
     "date": "june 2020",
-    "colors": ["#", "#"],
-    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
-    "images": ["image1.png", "image2.png", "image3.png"],
-    "imagesMobile": ["image4.png", "image5.png", "image6.png"]
+    "colors": [
+      "#",
+      "#"
+    ],
+    "partners": [
+      "Maëva WOLFF",
+      "Nathan STAMPFLI"
+    ],
+    "images": [
+      "image1.png",
+      "image2.png",
+      "image3.png"
+    ]
   }
 ]
