@@ -47,8 +47,8 @@ export default function HomeAbout() {
         </SkillsContainer>
       </Infos>
       <Available>
-        <Cv href='/'> DOWNLOAD MY CV</Cv>
-        <Freelance href='/'>I’m available for Freelance</Freelance>
+        <Cv href={require('../../assets/linablidi_cv.pdf')} download="liniblidi_cv" target="_blank"> DOWNLOAD MY CV</Cv>
+        <Freelance href='https://www.malt.fr/profile/linablidiboukamel'>I’m available for Freelance</Freelance>
       </Available>
     </Container>
   );
