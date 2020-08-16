@@ -98,18 +98,19 @@
   {
     "name": "gallery",
     "year": "2019",
-    "hashtag": "school project",
-    "description": "lorem ipsum blablablabla",
+    "hashtag": "personal project",
+    "description": "3D GALLERY, HOPE YOU WILL LIKE IT.",
     "heroImage": "hero_gallery.png",
-    "link": "/",
-    "time": "2 full week design and dev",
-    "date": "june 2020",
-    "colors": [
-      "#",
-      "#"
-    ],
+    "link": "",
+    "time": "3D GALLERY",
+    "date": "",
     "partners": [],
-    "images": [],
+    "color1": "#000",
+    "images": [
+      "gallery1.png",
+      "gallery2.png",
+      "gallery3.png"
+    ],
     "imagesMobile": []
   }
 ]

@@ -17,10 +17,10 @@ export default function WorksHero(props) {
       <IndicatorScroll />
       <Infos>
         <Name>{props.worksName}</Name>
-        <Hashtag>#{props.worksHashtag}</Hashtag>
+        <Hashtag style={{ color: props.worksColor }}>#{props.worksHashtag}</Hashtag>
         <Description>{props.worksDescription}</Description>
 
-        <Link href={props.worksLink}>
+        <Link style={{ color: props.worksColor }} href={props.worksLink}>
           <p>see the website right here</p>
         </Link>
       </Infos>

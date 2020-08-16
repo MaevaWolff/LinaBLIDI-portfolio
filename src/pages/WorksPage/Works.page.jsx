@@ -23,6 +23,7 @@ export default function WorksPage(props) {
       <GridsBackground />
       <WorksHero
         worksName={works.filter(el => el.name === name)[0].name}
+        worksColor={works.filter(el => el.name === name)[0].color1}
         worksHashtag={works.filter(el => el.name === name)[0].hashtag}
         worksDescription={works.filter(el => el.name === name)[0].description}
         worksLink={works.filter(el => el.name === name)[0].link}
