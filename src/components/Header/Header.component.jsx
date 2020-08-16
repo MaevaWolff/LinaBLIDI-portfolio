@@ -4,13 +4,24 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleMenuClick = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   const backToTop = () => {
     window.scrollTo(0, 0);
   };
+
+  const handleMenuClick = () => {
+    setMenuOpen(!menuOpen);
+    const body = document.body;
+    body.style.overflowY = "hidden";
+
+    if (!menuOpen) {
+      // backToTop();
+    }
+    else {
+      body.style.overflowY = "";
+    }
+  };
+
+
 
   return (
     <header className='header'>
@@ -60,7 +71,7 @@ export default function Header() {
             </a>
           </li>
           <li className='header__item'>
-            <a href='/'>
+            <a href='#about'>
               ABOUT ME /<em> (03)</em>
             </a>
           </li>
