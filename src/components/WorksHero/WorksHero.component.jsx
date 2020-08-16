@@ -21,7 +21,7 @@ export default function WorksHero(props) {
         <Description>{props.worksDescription}</Description>
 
         <Link style={{ color: props.worksColor }} href={props.worksLink}>
-          <p>see the website right here</p>
+          <p>{props.worksLinkText}</p>
         </Link>
       </Infos>
     </Container>
@@ -88,6 +88,7 @@ text-decoration: underline;
 font-weight: 600;
 p {
   margin-top: 80px;
+  text-transform: lowercase;
   @media (min-width: ${breakpoints.medium}) {
     font-size: 18px;
     margin-top: 20px;

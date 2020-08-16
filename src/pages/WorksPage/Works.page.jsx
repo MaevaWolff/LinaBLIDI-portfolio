@@ -27,6 +27,7 @@ export default function WorksPage(props) {
         worksHashtag={works.filter(el => el.name === name)[0].hashtag}
         worksDescription={works.filter(el => el.name === name)[0].description}
         worksLink={works.filter(el => el.name === name)[0].link}
+        worksLinkText={works.filter(el => el.name === name)[0].linkText}
         worksHero={works.filter(el => el.name === name)[0].heroImage}
       />
       <WorksDetails
