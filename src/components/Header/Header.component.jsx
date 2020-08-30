@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PeaceSVG from '../../assets/hand.svg'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function Header() {
   return (
     <header className='header'>
       <Link to='/' className='header__logo' onClick={backToTop}>
-        <img src="" alt="/"/>
+        <img src={PeaceSVG} alt="/"/>
       </Link>
 
       <div
