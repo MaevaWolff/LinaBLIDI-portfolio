@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import SpotifyIMG from '../../assets/spotify.png';
 import styled, { keyframes } from 'styled-components';
 
@@ -25,9 +25,23 @@ const Container = styled.div`
 `;
 
 export default function Spotify() {
+
+
+  const [playing, setPlaying] = useState(false);
+  const ElAudio = useRef(null);
+
+  function handlePlaying()  {
+    setPlaying(!playing);
+    if (playing) {
+      ElAudio.current.play()
+    } else {
+      ElAudio.current.pause()
+    }
+  }
   return (
-    <Container>
+    <Container onClick={handlePlaying}>
       <img src={SpotifyIMG} alt='image_spotify_playlist' />
+      <audio ref={ElAudio} src={require('../../assets/audio/audio1.mp3')} preload></audio>
     </Container>
   );
 }
