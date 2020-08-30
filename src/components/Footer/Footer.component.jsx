@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <Container>
       <p>© LINA BLIDI, 2020 ALL RIGHT RESERVED</p>
-      <p>Developped by STAMPFLI Nathan & WOLLF Maëva</p>
+      <p>Developped by WOLFF Maëva</p>
     </Container>
   );
 }
