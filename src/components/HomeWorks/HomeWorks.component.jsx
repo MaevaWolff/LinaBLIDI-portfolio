@@ -68,12 +68,14 @@ export default function HomeWorks() {
 }
 
 const Container = styled.div`
-  height: 140vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+      @media (min-width: ${breakpoints.medium}) {
+    height: 140vh;
+  }
 `;
 
 const Items = styled.a`

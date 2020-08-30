@@ -56,10 +56,14 @@ export default function HomeAbout() {
 
 const Container = styled.div`
   width: 100%;
-  height: 140vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+    @media (min-width: ${breakpoints.medium}) {
+    height: 140vh;
+  }
 `;
 
 const MainTitle = styled.h2`

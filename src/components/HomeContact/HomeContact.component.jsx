@@ -46,10 +46,13 @@ export default function HomeContact() {
 
 const Container = styled.div`
   width: 100%;
-  height: 140vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+      @media (min-width: ${breakpoints.medium}) {
+    height: 140vh;
+  }
 `;
 
 const MainTitle = styled.h2`
