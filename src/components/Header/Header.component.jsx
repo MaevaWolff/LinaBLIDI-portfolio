@@ -26,7 +26,7 @@ export default function Header() {
   return (
     <header className='header'>
       <Link to='/' className='header__logo' onClick={backToTop}>
-        lina blidi
+        <img src="" alt="/"/>
       </Link>
 
       <div

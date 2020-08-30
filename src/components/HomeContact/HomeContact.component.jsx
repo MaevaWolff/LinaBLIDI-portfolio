@@ -22,7 +22,10 @@ export default function HomeContact() {
             Feel free to contact me, i’m enjoying every project i can be on,
             plus its always a pleasure to work with differents profiles.
           </Text>
-          <Mail>Send Me A Mail!</Mail>
+
+          <MailContainer>
+            <Mail href="mailto:lina.blidi@gmail.com">Send Me A Mail!</Mail>
+            </MailContainer>
           <Socials>
             <Links href='https://www.linkedin.com/in/lina-blidi-000aa0174/'>
               <img src={linkedinSVG} alt='socials_icon_linkedin' />
@@ -97,11 +100,16 @@ const Text = styled.p`
   }
 `;
 
-const Mail = styled.p`
+const MailContainer = styled.div`
+margin-top: 4%;
+` 
+
+const Mail = styled.a`
 color: ${colors.primaryColor};
 margin-top: 40px;
 font-weight: bold;
 font-size: ${fontSize.s};
+cursor: pointer;
 @media (min-width: ${breakpoints.medium}) {
   font-size: ${fontSize.m};
 }
