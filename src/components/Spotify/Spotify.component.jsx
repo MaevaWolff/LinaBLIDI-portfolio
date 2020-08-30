@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react';
 import SpotifyIMG from '../../assets/spotify.png';
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 
 const rotate = keyframes`
 0% {
@@ -18,11 +18,17 @@ const Container = styled.div`
     position: absolute;
     left: 80px;
     bottom: 10px;
+     ${(props) =>
+    props.isPlaying &&
+    css`
+   animation: ${rotate} 6s infinite linear;
+    `}
     &:hover {
       animation: ${rotate} 6s infinite linear;
     }
   }
 `;
+
 
 export default function Spotify() {
 
@@ -32,16 +38,16 @@ export default function Spotify() {
 
   function handlePlaying()  {
     setPlaying(!playing);
-    if (playing) {
+    if (!playing) {
       ElAudio.current.play()
     } else {
       ElAudio.current.pause()
     }
   }
   return (
-    <Container onClick={handlePlaying}>
+    <Container onClick={handlePlaying} isPlaying={playing ? true : false}>
       <img src={SpotifyIMG} alt='image_spotify_playlist' />
-      <audio ref={ElAudio} src={require('../../assets/audio/audio1.mp3')} preload></audio>
+      <audio ref={ElAudio} src={require('../../assets/audio/audio1.mp3')}></audio>
     </Container>
   );
 }
