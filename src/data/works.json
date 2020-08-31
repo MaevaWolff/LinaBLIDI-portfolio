@@ -13,16 +13,8 @@
     "color1": "#FF7E7E",
     "color2": "#151515",
     "color3": "#FFFFFF",
-    "partners": [
-      "Maëva WOLFF",
-      "Nathan STAMPFLI"
-    ],
-    "images": [
-      "cwbn1.png",
-      "cwbn2.png",
-      "cwbn3.png",
-      "cwbn4.png"
-    ],
+    "partners": ["Maëva WOLFF", "Nathan STAMPFLI"],
+    "images": ["cwbn1.png", "cwbn2.png", "cwbn3.png", "cwbn4.png"],
     "imagesMobile": [
       "cnwbn1_mobile.png",
       "cnwbn2_mobile.png",
@@ -42,14 +34,8 @@
     "color1": "#00AC44",
     "color2": "#ECEFF4",
     "color3": "#FFFFFF",
-    "partners": [
-      "Team Work"
-    ],
-    "images": [
-      "socoda1.png",
-      "socoda2.png",
-      "socoda3.png"
-    ],
+    "partners": ["Team Work"],
+    "images": ["socoda1.png", "socoda2.png", "socoda3.png"],
     "imagesMobile": []
   },
   {
@@ -66,14 +52,8 @@
     "color1": "#FF8888",
     "color2": "#1d1d1d",
     "color3": "#FFFFFF",
-    "partners": [
-      "My own self"
-    ],
-    "images": [
-      "coquette1.png",
-      "coquette2.png",
-      "coquette3.png"
-    ],
+    "partners": ["My own self"],
+    "images": ["coquette1.png", "coquette2.png", "coquette3.png"],
     "imagesMobile": []
   },
   {
@@ -90,14 +70,8 @@
     "color1": "#384082",
     "color2": "#1d1d1d",
     "color3": "#FFFFFF",
-    "partners": [
-      "My own self"
-    ],
-    "images": [
-      "mypocket1.png",
-      "mypocket2.png",
-      "mypocket3.png"
-    ],
+    "partners": ["My own self"],
+    "images": ["mypocket1.png", "mypocket2.png", "mypocket3.png"],
     "imagesMobile": []
   },
   {
@@ -105,18 +79,14 @@
     "year": "2019",
     "hashtag": "personal project",
     "description": "3D GALLERY, HOPE YOU WILL LIKE IT.",
-    "heroImage": "hero_mypocket.png",
+    "heroImage": "hero_gallery.png",
     "link": "",
     "linkText": "",
     "time": "3D GALLERY",
     "date": "",
     "partners": [],
     "color1": "#000",
-    "images": [
-      "gallery1.png",
-      "gallery2.png",
-      "gallery3.png"
-    ],
+    "images": ["gallery1.png", "gallery2.png", "gallery3.png"],
     "imagesMobile": []
   }
 ]
