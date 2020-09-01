@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
-import cover from '../../assets/cover.png';
 
 export default function MetaTag(props) {
   return (
@@ -16,13 +15,11 @@ export default function MetaTag(props) {
       <meta property="og:url" content="https://linablidi.netlify.app/" />
       <meta property="og:title" content="Lina Blidi Portfolio"></meta>
       <meta property="og:description" content="Hey, I'm Lina Blidi a UI UX Designer, student and freelance from Paris :relaxed:"></meta>
-      <meta property="og:image" content={cover} />
 
       <meta property="twitter:card" content="summary_large_image"></meta>
       <meta property="twitter:url" content="https://linablidi.netlify.app/" />
       <meta property="twitter:title" content="Lina Blidi Portfolio"></meta>
       <meta property="twitter:description" content="Hey, I'm Lina Blidi a UI UX Designer, student and freelance from Paris :relaxed:"></meta>
-      <meta property="twitter:image" content={cover} />
 
     </Helmet>
   );
