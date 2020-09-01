@@ -10,13 +10,6 @@ export default function MetaTag(props) {
         {`LINA BLIDI - DESIGNER UI/UX FREELANCE - ${props.metatagPage}`}
       </title>
 
-      <meta property="og:type" content="website"></meta>
-      <meta property="og:url" content="https://linablidi.netlify.app/" />
-
-      <meta property="twitter:card" content="summary_large_image"></meta>
-      <meta property="twitter:url" content="https://linablidi.netlify.app/" />
-
-
     </Helmet>
   );
 }
